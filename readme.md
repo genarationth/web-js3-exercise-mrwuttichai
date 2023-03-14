@@ -24,6 +24,14 @@ Can you help her calculate her costs?
 
 Return the value of what she should be paying.
 
+*/function paYing(transaction) {
+  const fee = 3;
+  const interestfee = 0.01;
+  return (transaction + fee) + (transaction * interestfee);
+};
+const payMent = paYing(200)
+console.log(payMent)*/
+
 ### Exercise #2
 
 #### Part 1

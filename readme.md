@@ -50,6 +50,12 @@ Ed would like to create a function that takes in a birth year and returns the ag
 
 i.e. 1990 returns 30
 
+/* function yourAge(currentyear,birthyear){
+        return  currentyear - birthyear;
+      }
+      let age = yourAge(2023, 1994)
+        console.log('returns ' + age) // output: 'returns 29'*/
+
 #### Part 3
 Ed would like to create a function that prints out,
 `Welcome {name1}, you are {age1}. Welcome {name2}, you are {age2}. Welcome {name3}, you are {age3}.`
